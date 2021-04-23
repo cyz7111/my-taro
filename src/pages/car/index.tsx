@@ -1,9 +1,8 @@
 import { Component } from 'react'
 import { View, Text } from '@tarojs/components'
 import './index.scss'
-import Header from '../../components/hearder/index'
 
-export default class Index extends Component {
+export default class Cat extends Component {
 
   componentWillMount () { }
 
@@ -17,9 +16,8 @@ export default class Index extends Component {
 
   render () {
     return (
-      <View className='index'>
-        <Header></Header>
-        <Text>我是首页</Text>
+      <View className='cat'>
+        <Text>我是购物车</Text>
       </View>
     )
   }

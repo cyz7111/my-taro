@@ -2,22 +2,24 @@ import { Component } from 'react'
 import { View, Text } from '@tarojs/components'
 import './index.scss'
 
+
 export default class My extends Component {
 
-  componentWillMount () { }
+  componentWillMount() { }
 
-  componentDidMount () { }
+  componentDidMount() { }
 
-  componentWillUnmount () { }
+  componentWillUnmount() { }
 
-  componentDidShow () { }
+  componentDidShow() { }
 
-  componentDidHide () { }
+  componentDidHide() { }
 
-  render () {
+  render() {
     return (
-      <View className='my'>
-        <Text>Hello world my!</Text>
+      <View>
+        <Text className='iconfont icon-ziliao'>我是主页</Text>
+        <Text className='my'>去登录</Text>
       </View>
     )
   }

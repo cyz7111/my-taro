@@ -1,5 +1,7 @@
+//入口组件
 import { Component } from 'react'
 import './app.scss'
+import './icon-taro/iconfont.css'
 
 class App extends Component {
 
